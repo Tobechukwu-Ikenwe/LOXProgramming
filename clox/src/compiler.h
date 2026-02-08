@@ -1,0 +1,12 @@
+/**
+ * compiler.h - Compiles Lox source to bytecode.
+ * Single-pass recursive descent compiler.
+ */
+#ifndef clox_compiler_h
+#define clox_compiler_h
+
+#include "chunk.h"
+
+bool compile(const char* source, Chunk* chunk);
+
+#endif

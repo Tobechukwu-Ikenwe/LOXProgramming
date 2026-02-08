@@ -1,0 +1,14 @@
+// Example 1: Arithmetic and Print
+// Demonstrates: numbers, operators, print statement, operator precedence
+
+print 2 + 3;           // 5
+print 10 - 4;          // 6
+print 3 * 7;           // 21
+print 15 / 3;          // 5
+
+// Operator precedence: * and / before + and -
+print 2 + 3 * 4;       // 14 (not 20)
+print (2 + 3) * 4;     // 20
+
+// Unary minus
+print -42;

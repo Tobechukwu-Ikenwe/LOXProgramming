@@ -1,0 +1,23 @@
+// Example 4: If and While
+// Demonstrates: if/else, while loop, comparisons, truthiness
+
+// If-else
+var x = 10;
+if (x > 5) {
+  print "x is greater than 5";
+} else {
+  print "x is 5 or less";
+}
+
+// While loop
+var i = 0;
+while (i < 3) {
+  print i;
+  i = i + 1;
+}
+// Prints: 0, 1, 2
+
+// Truthiness: only false and nil are falsy
+if (0) { print "zero is truthy"; }       // In Lox, 0 is truthy!
+if ("") { print "empty string is truthy"; }
+if (nil) { print "nil is truthy"; } else { print "nil is falsy"; }

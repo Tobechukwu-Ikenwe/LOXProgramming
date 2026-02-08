@@ -1,0 +1,22 @@
+// Example 3: Blocks and Scope
+// Demonstrates: blocks { }, nested scopes, variable shadowing
+
+var outer = "I'm outside";
+
+{
+  var inner = "I'm inside";
+  print outer;         // I'm outside - can see outer scope
+  print inner;         // I'm inside
+}
+
+print outer;           // I'm outside
+// print inner;        // Would error: inner is not in scope
+
+{
+  var x = 1;
+  {
+    var x = 2;         // Shadows outer x
+    print x;           // 2
+  }
+  print x;             // 1
+}

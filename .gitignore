@@ -1,0 +1,16 @@
+# clox build
+clox/clox
+clox/clox.exe
+clox/*.exe
+clox/*.o
+clox/*.obj
+
+# jlox build
+jlox/build/
+*.class
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

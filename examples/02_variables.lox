@@ -1,0 +1,14 @@
+// Example 2: Variables
+// Demonstrates: var declaration, assignment, variable reference
+
+var x = 10;
+var y = 20;
+print x + y;           // 30
+
+var greeting = "Hello";
+var name = "Lox";
+print greeting + ", " + name + "!";   // Hello, Lox!
+
+// Reassignment
+x = 100;
+print x;               // 100
