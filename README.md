@@ -88,10 +88,13 @@ See `examples/` folder for:
   cd clox
   build.bat
   ```
-- **Windows (Clang, or if GCC is not installed):**
+- **Windows (Clang, or GCC):**
   ```cmd
   cd clox
   clang -Wall -std=c99 -Isrc -o clox.exe src/clox.c src/chunk.c src/compiler.c src/debug.c src/object.c src/scanner.c src/value.c src/vm.c
+
+  gcc -Wall -std=c99 -Isrc -o clox.exe \ src/clox.c src/chunk.c src/compiler.c src/debug.c \ src/object.c src/scanner.c src/value.c src/vm.c
+
   ```
 - **Linux / macOS:**
   ```bash
@@ -116,10 +119,13 @@ See `examples/` folder for:
 
 ### How It Works
 
-1. **Scanner**: Same as jlox - tokenizes source
-2. **Compiler**: Recursive descent, emits bytecode directly (no AST)
-3. **Chunk**: Stores opcodes and constants
-4. **VM**: Stack-based execution - push/pop values, execute opcodes
+1.Scanner: Converts source text into a stream of tokens. 🔤
+
+Compiler: Parses tokens and directly emits bytecode (no AST is built). 🧠
+
+Chunk: Holds bytecode instructions and their constants. 📦
+
+VM: Executes bytecode using a stack (push, pop, run ops). ⚙️
 
 ### Bytecode Example
 
