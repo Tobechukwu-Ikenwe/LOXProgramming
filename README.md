@@ -1,6 +1,6 @@
 # Lox - Crafting Interpreters Implementation
 
-A complete implementation of the **Lox** programming language from Robert Nystrom's [Crafting Interpreters](https://craftinginterpreters.com/) book.
+A complete implementation of the **Lox** programming language from Robert Nystrom's [Crafting Interpreters](https://craftinginterpreters.com/) book.  Please read the book if you have the time 🙏.
 
 ## Project Structure
 
@@ -119,13 +119,13 @@ See `examples/` folder for:
 
 ### How It Works
 
-1.Scanner: Converts source text into a stream of tokens. 🔤
+1. Scanner: Converts source text into a stream of tokens. 🔤
 
-Compiler: Parses tokens and directly emits bytecode (no AST is built). 🧠
+2. Compiler: Parses tokens and directly emits bytecode (no AST is built). 🧠
 
-Chunk: Holds bytecode instructions and their constants. 📦
+3. Chunk: Holds bytecode instructions and their constants. 📦
 
-VM: Executes bytecode using a stack (push, pop, run ops). ⚙️
+4. VM: Executes bytecode using a stack (push, pop, run ops). ⚙️
 
 ### Bytecode Example
 
