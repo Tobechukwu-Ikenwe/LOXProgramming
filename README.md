@@ -154,4 +154,4 @@ OP_RETURN
 
 - Learn the step-by-step process of building a programming language.
 
-Understand how the languages you know and love are constructed.
+- Understand how the languages you know and love are constructed.
