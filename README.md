@@ -146,3 +146,12 @@ OP_RETURN
 - **Bytecode**: Dense instruction format, stack operations (clox)
 - **Interpretation**: Visitor pattern (jlox) vs. instruction dispatch (clox)
 - **Scopes**: Block-scoped variables, lexical scoping
+
+
+## From the Author
+
+- Read the code carefully.
+
+- Learn the step-by-step process of building a programming language.
+
+Understand how the languages you know and love are constructed.
